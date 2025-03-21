@@ -1,0 +1,475 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background{
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+}
+
+.head{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.8) ;
+    padding-top: 23px;
+    padding-left: 35px;
+}
+
+.b1{
+    width: 1300px;
+    height: 60vh;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-image: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(pngtree-many-kinds-of-italian-food-on-a-tray-picture-image_3143895.jpg);
+    
+}
+
+a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s ease-in-out ;
+}
+
+a:hover{
+    color: rgb(64, 192, 64);
+}
+
+.bg2{
+    margin: 0 auto;
+    width: 1300px;
+    height: 60vh;
+    background-color:rgb(246, 246, 246);
+}
+.bgcaption{
+    width: 700px;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0 auto;
+    
+}
+
+h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.captionbg2{
+    font-size: 25px;
+    line-height: 45px;
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+p{
+    font-size: 25px;
+    line-height: 60px;
+    color: gray;
+}
+
+.caption{
+    font-size: 25px;
+    color:  rgb(53, 106, 53);
+    font-weight: 300;
+}
+
+.pcaption{
+    font-size: 20px;
+    line-height: 32px;
+    width: 380px;
+    font-weight: 300;
+    margin-bottom: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.bg3{
+    background-color:rgb(246, 246, 246);
+    width: 1300px;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+}
+
+.entername{
+    width: 600px;
+    height: 60vh;
+    margin-right: 25px;
+    margin-left: 30px;
+    padding: 50px;
+}
+
+.address{
+    width: 600px;
+    height: 60vh;
+    padding: 50px;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+.fb{
+    background-image: url(fb.png);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.twitter{
+    background-image: url(twitter.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.instagram{
+    background-image: url(instagram.png);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+input{
+    font-size: 20px;
+    border: none;
+    width: 350px;
+    margin-left: 50px;
+    line-height: 40px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(117, 113, 113);
+
+}
+
+textarea{
+    margin-left: 50px ;
+    margin-top: 30px;
+    width: 350px;
+    height: 150px;
+    font-size: 20px;
+    line-height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(117, 113, 113);
+    background-color: transparent;
+}
+.send{
+    background-color: rgb(53, 106, 53);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-size: 15px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.map{
+    width: 1300px;
+    height: 70vh;
+    background-color:rgb(246, 246, 246);
+    margin: 0 auto;
+}
+
+.map1{
+    width: 1100px;
+    height: 60vh;
+    margin: 0 auto;
+}
+
+.faq{
+    width: 1300px;
+    height: 50vh;
+    background-color:rgb(246, 246, 246);
+    margin: 0 auto;
+    justify-content: center;
+}
+.title3{
+    text-align: center;
+}
+
+.caption1{
+    width: 650px;
+    margin-left: 290px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.lastinput{
+    padding: 50px;
+    margin: 0 auto;
+    width: 1300px;
+    height: 70vh;
+    background-color:rgb(246, 246, 246);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(300px);
+    gap: 20px;
+}
+
+.box{
+    border: 1px solid rgb(68, 143, 68);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.pic{
+    background-image: url(3rd.webp);
+    background-size: cover;
+    background-position: top;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.last{
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+.personname{
+    text-align: center;
+    color: rgba(47, 47, 182, 0.7);
+    font-size: 25px;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .b1{
+        width: 100%;
+        height: 50vh;
+        margin: 0 auto;
+        background-image: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(pngtree-many-kinds-of-italian-food-on-a-tray-picture-image_3143895.jpg);
+        
+    }
+
+    .head{
+        width: 100%;
+        height: 70px;
+        margin: 0 auto;
+        background-color: rgba(0,0,0,0.8) ;
+        padding-top: 23px;
+        padding-left: 25px;
+    }
+
+    .bg2{
+        margin: 0 auto;
+        width: 100%;
+        height: 60vh;
+        background-color:rgb(246, 246, 246);
+    }
+    .bgcaption{
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+        margin: 0 auto;
+        
+    }
+
+    .bg3{
+        background-color:rgb(246, 246, 246);
+        width: 100%;
+        margin: 0 auto;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(70vh);
+    }
+
+    .pcaption{
+        width: 300px;
+    }
+    
+
+    .map{
+        width: 100%;
+        height: 70vh;
+        background-color:rgb(246, 246, 246);
+        margin: 0 auto;
+    }
+    
+    .map1{
+        width: 100%;
+        height: 60vh;
+        margin: 0 auto;
+    }
+
+    
+.faq{
+    width: 100%;
+    height: 50vh;
+    background-color:rgb(246, 246, 246);
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.caption1{
+    width:100%;
+    margin-left: 290px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lastinput{
+    padding: 50px;
+    margin: 0 auto;
+    width: 100%;
+    height: 70vh;
+    background-color:rgb(246, 246, 246);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(300px);
+    gap: 20px;
+}
+
+
+    
+}
+
+
+
+@media (max-width: 500px) {
+
+    .b1{
+        width: 100%;
+        height: 50vh;
+        margin: 0 auto;
+        background-image: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(pngtree-many-kinds-of-italian-food-on-a-tray-picture-image_3143895.jpg);
+        
+    }
+
+    .head{
+        width: 100%;
+        height: 70px;
+        margin: 0 auto;
+        background-color: rgba(0,0,0,0.8) ;
+        padding-top: 23px;
+        padding-left: 25px;
+    }
+
+    .bg2{
+        margin: 0 auto;
+        width: 100%;
+        height: 60vh;
+        background-color:rgb(246, 246, 246);
+    }
+    .bgcaption{
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+        margin: 0 auto;
+        
+    }
+
+    .bg3{
+        background-color:rgb(246, 246, 246);
+        width: 1300px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(70vh);
+    }
+    
+    .entername{
+        width: 100%;
+        height: 60vh;
+        margin: 0 auto;
+
+    }
+    
+    .address{
+        width: 100%;
+        height: 60vh;
+        margin: 0 auto;
+
+    }
+
+    .map{
+        width: 100%;
+        height: 70vh;
+        background-color:rgb(246, 246, 246);
+        margin: 0 auto;
+    }
+    
+    .map1{
+        width: 100%;
+        height: 60vh;
+        margin: 0 auto;
+    }
+
+    
+.faq{
+    width: 100%;
+    height: 50vh;
+    background-color:rgb(246, 246, 246);
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.caption1{
+    width:100%;
+    margin-left: 290px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lastinput{
+    padding: 50px;
+    margin: 0 auto;
+    width: 100%;
+    height: 70vh;
+    background-color:rgb(246, 246, 246);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(300px);
+    gap: 20px;
+}
+
+
+    
+}
+
+
+
+
+
+
+
